@@ -25,4 +25,23 @@ class StringAlgorithmTests: XCTestCase {
         XCTAssertEqual(result, "")
     }
 
+    func testLongestSubstringWithDistinctCharacters() {
+        var string = "AAAHHIBC"
+        XCTAssertEqual(string.longestSubstringWithDistinctCharacters(2), "AAAHH")
+
+        string = "aabbccdd"
+        XCTAssertEqual(string.longestSubstringWithDistinctCharacters(2), "aabb")
+        XCTAssertEqual(string.longestSubstringWithDistinctCharacters(4), "aabbccdd")
+        XCTAssertNil(string.longestSubstringWithDistinctCharacters(5))
+
+        XCTAssertNil("".longestSubstringWithDistinctCharacters(2))
+
+        string = "ccédu 🌍"
+        XCTAssertEqual(string.longestSubstringWithDistinctCharacters(3), "ccéd")
+    }
+
+    func testRemoveInvalidParenthesis() {
+        let input = "()())()"
+        XCTAssert(input.removeInvalidParenthesis().count == 2)
+    }
 }

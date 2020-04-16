@@ -53,6 +53,7 @@ char* licenseKeyFormatting(char* S, int K) {
 
 @implementation Strings
 
+
 + (NSString*) formattedLicenseKey:(NSString*)license
          subsequentFragmentLength:(NSInteger)k
                insertingCharacter:(unichar)character {

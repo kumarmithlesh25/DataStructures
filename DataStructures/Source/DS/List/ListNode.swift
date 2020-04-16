@@ -29,3 +29,15 @@ public class DoubleListNode<T> {
         self.element = element
     }
 }
+
+internal struct TrackedString {
+    var numberOfEdits = 0
+    var value: String = "" {
+        didSet {
+            numberOfEdits += 1
+        }
+    }
+    public init() {}
+}
+
+

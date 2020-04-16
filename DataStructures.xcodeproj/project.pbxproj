@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		432375582435E8F30085B111 /* MathsAlgorithmTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432375572435E8F30085B111 /* MathsAlgorithmTest.swift */; };
+		4323755A2435E9750085B111 /* Bitswise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432375592435E9750085B111 /* Bitswise.swift */; };
 		432532A7241CB535006DD680 /* ArrayAlgorithmsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432532A6241CB535006DD680 /* ArrayAlgorithmsTests.swift */; };
-		432532AA241D664D006DD680 /* LRUCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432532A9241D664D006DD680 /* LRUCache.swift */; };
 		43253363242BDD22006DD680 /* SinglyLinkedListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4385605C2415040C00D22473 /* SinglyLinkedListTests.swift */; };
 		43253365242BF6C7006DD680 /* LinkedListProblems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43253364242BF6C7006DD680 /* LinkedListProblems.swift */; };
 		4329C2FA21FB13EA0025A3DF /* DataStructures.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4329C2F021FB13EA0025A3DF /* DataStructures.framework */; };
@@ -22,7 +23,6 @@
 		434DF4822205CE2900AB5C43 /* ArrayQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 434DF4802205CE2900AB5C43 /* ArrayQueue.m */; };
 		434DF4852205D33E00AB5C43 /* ListQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 434DF4832205D33E00AB5C43 /* ListQueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		434DF4862205D33E00AB5C43 /* ListQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 434DF4842205D33E00AB5C43 /* ListQueue.m */; };
-		434DF4892205D91300AB5C43 /* QueueTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 434DF4882205D91300AB5C43 /* QueueTests.m */; };
 		434DF48B220623B400AB5C43 /* BinaryTreeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 434DF48A220623B400AB5C43 /* BinaryTreeTests.m */; };
 		434DF48D2206E3BC00AB5C43 /* BinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434DF48C2206E3BC00AB5C43 /* BinaryTree.swift */; };
 		434DF48F2206F04F00AB5C43 /* Queue.h in Headers */ = {isa = PBXBuildFile; fileRef = 434DF4872205D3BD00AB5C43 /* Queue.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -35,7 +35,10 @@
 		4386F085220AF9DB00866B3C /* StringAlgorithmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4386F084220AF9DB00866B3C /* StringAlgorithmTests.swift */; };
 		438D6244220EFBC800AC6DBD /* Strings.h in Headers */ = {isa = PBXBuildFile; fileRef = 438D6242220EFBC800AC6DBD /* Strings.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		438D6245220EFBC800AC6DBD /* Strings.m in Sources */ = {isa = PBXBuildFile; fileRef = 438D6243220EFBC800AC6DBD /* Strings.m */; };
-		438D6247220EFFDD00AC6DBD /* StringAlgorithmTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 438D6246220EFFDD00AC6DBD /* StringAlgorithmTests.m */; };
+		43E0EB382443A269001C2523 /* Strings + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E0EB372443A269001C2523 /* Strings + Extensions.swift */; };
+		43E0EB3A2443A43A001C2523 /* Dictionary + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E0EB392443A43A001C2523 /* Dictionary + Extensions.swift */; };
+		43E0EB4224476EC4001C2523 /* QueueTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 434DF4882205D91300AB5C43 /* QueueTests.m */; };
+		43E0EB492447745B001C2523 /* RemoveMinimumInvalidParenthesis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E0EB482447745B001C2523 /* RemoveMinimumInvalidParenthesis.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,8 +52,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		432375572435E8F30085B111 /* MathsAlgorithmTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathsAlgorithmTest.swift; sourceTree = "<group>"; };
+		432375592435E9750085B111 /* Bitswise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bitswise.swift; sourceTree = "<group>"; };
 		432532A6241CB535006DD680 /* ArrayAlgorithmsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayAlgorithmsTests.swift; sourceTree = "<group>"; };
-		432532A9241D664D006DD680 /* LRUCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LRUCache.swift; sourceTree = "<group>"; };
 		43253364242BF6C7006DD680 /* LinkedListProblems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedListProblems.swift; sourceTree = "<group>"; };
 		4329C2F021FB13EA0025A3DF /* DataStructures.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DataStructures.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4329C2F321FB13EA0025A3DF /* DataStructures.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataStructures.h; sourceTree = "<group>"; };
@@ -82,7 +86,9 @@
 		4386F084220AF9DB00866B3C /* StringAlgorithmTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringAlgorithmTests.swift; sourceTree = "<group>"; };
 		438D6242220EFBC800AC6DBD /* Strings.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Strings.h; sourceTree = "<group>"; };
 		438D6243220EFBC800AC6DBD /* Strings.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Strings.m; sourceTree = "<group>"; };
-		438D6246220EFFDD00AC6DBD /* StringAlgorithmTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StringAlgorithmTests.m; sourceTree = "<group>"; };
+		43E0EB372443A269001C2523 /* Strings + Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Strings + Extensions.swift"; sourceTree = "<group>"; };
+		43E0EB392443A43A001C2523 /* Dictionary + Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dictionary + Extensions.swift"; sourceTree = "<group>"; };
+		43E0EB482447745B001C2523 /* RemoveMinimumInvalidParenthesis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveMinimumInvalidParenthesis.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,12 +110,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		432532A8241D6633006DD680 /* Misc */ = {
+		432532A8241D6633006DD680 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				432532A9241D664D006DD680 /* LRUCache.swift */,
+				43E0EB372443A269001C2523 /* Strings + Extensions.swift */,
+				43E0EB392443A43A001C2523 /* Dictionary + Extensions.swift */,
 			);
-			path = Misc;
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		4329C2E621FB13EA0025A3DF = {
@@ -144,15 +151,15 @@
 		4329C2FD21FB13EA0025A3DF /* DataStructuresTests */ = {
 			isa = PBXGroup;
 			children = (
+				434DF4882205D91300AB5C43 /* QueueTests.m */,
 				4329C2FE21FB13EA0025A3DF /* DataStructuresTests.m */,
 				4329C30021FB13EA0025A3DF /* Info.plist */,
-				434DF4882205D91300AB5C43 /* QueueTests.m */,
 				434DF48A220623B400AB5C43 /* BinaryTreeTests.m */,
 				434DF493220778D600AB5C43 /* BinaryTreeTestsSwift.swift */,
 				434DF4902207745000AB5C43 /* DataStructuresTests-Bridging-Header.h */,
 				4386F084220AF9DB00866B3C /* StringAlgorithmTests.swift */,
-				438D6246220EFFDD00AC6DBD /* StringAlgorithmTests.m */,
 				432532A6241CB535006DD680 /* ArrayAlgorithmsTests.swift */,
+				432375572435E8F30085B111 /* MathsAlgorithmTest.swift */,
 			);
 			path = DataStructuresTests;
 			sourceTree = "<group>";
@@ -160,12 +167,9 @@
 		4329C30A21FB15330025A3DF /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				432532A8241D6633006DD680 /* Misc */,
-				438560532413BD8E00D22473 /* Stack */,
 				4386F081220ADAE600866B3C /* Algorithms */,
-				434DF47E2205CE1300AB5C43 /* Queue */,
-				434DF4752205951300AB5C43 /* Trees */,
-				4329C30B21FB15410025A3DF /* List */,
+				43E0EB4024476D9C001C2523 /* DS */,
+				432532A8241D6633006DD680 /* Extensions */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -183,11 +187,8 @@
 		434DF4752205951300AB5C43 /* Trees */ = {
 			isa = PBXGroup;
 			children = (
-				434DF47622059ED000AB5C43 /* BinaryTree.h */,
-				434DF47722059ED000AB5C43 /* BinaryTree.m */,
-				434DF47A22059F1800AB5C43 /* BinaryTreeNode.h */,
-				434DF47B22059F1800AB5C43 /* BinaryTreeNode.m */,
-				434DF48C2206E3BC00AB5C43 /* BinaryTree.swift */,
+				43E0EB43244772A7001C2523 /* ObjC */,
+				43E0EB44244772BA001C2523 /* Swift */,
 			);
 			path = Trees;
 			sourceTree = "<group>";
@@ -215,13 +216,109 @@
 		4386F081220ADAE600866B3C /* Algorithms */ = {
 			isa = PBXGroup;
 			children = (
-				4386F082220ADB4800866B3C /* Strings.swift */,
-				438D6242220EFBC800AC6DBD /* Strings.h */,
-				438D6243220EFBC800AC6DBD /* Strings.m */,
-				4385605E24165D0D00D22473 /* Array.swift */,
-				43253364242BF6C7006DD680 /* LinkedListProblems.swift */,
+				43E0EB3C24476CBD001C2523 /* Swift */,
+				43E0EB3B24476C65001C2523 /* ObjC */,
 			);
 			path = Algorithms;
+			sourceTree = "<group>";
+		};
+		43E0EB3B24476C65001C2523 /* ObjC */ = {
+			isa = PBXGroup;
+			children = (
+				438D6242220EFBC800AC6DBD /* Strings.h */,
+				438D6243220EFBC800AC6DBD /* Strings.m */,
+			);
+			path = ObjC;
+			sourceTree = "<group>";
+		};
+		43E0EB3C24476CBD001C2523 /* Swift */ = {
+			isa = PBXGroup;
+			children = (
+				43E0EB47244773B4001C2523 /* DoublyLinkedList */,
+				43E0EB46244773A9001C2523 /* SinglyLinkedList */,
+				43E0EB45244772F9001C2523 /* String */,
+				43E0EB3F24476D63001C2523 /* Maths */,
+				43E0EB3E24476D5C001C2523 /* Bitwise */,
+				43E0EB3D24476D51001C2523 /* Array */,
+			);
+			path = Swift;
+			sourceTree = "<group>";
+		};
+		43E0EB3D24476D51001C2523 /* Array */ = {
+			isa = PBXGroup;
+			children = (
+				4385605E24165D0D00D22473 /* Array.swift */,
+			);
+			path = Array;
+			sourceTree = "<group>";
+		};
+		43E0EB3E24476D5C001C2523 /* Bitwise */ = {
+			isa = PBXGroup;
+			children = (
+				432375592435E9750085B111 /* Bitswise.swift */,
+			);
+			path = Bitwise;
+			sourceTree = "<group>";
+		};
+		43E0EB3F24476D63001C2523 /* Maths */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Maths;
+			sourceTree = "<group>";
+		};
+		43E0EB4024476D9C001C2523 /* DS */ = {
+			isa = PBXGroup;
+			children = (
+				438560532413BD8E00D22473 /* Stack */,
+				434DF47E2205CE1300AB5C43 /* Queue */,
+				434DF4752205951300AB5C43 /* Trees */,
+				4329C30B21FB15410025A3DF /* List */,
+			);
+			path = DS;
+			sourceTree = "<group>";
+		};
+		43E0EB43244772A7001C2523 /* ObjC */ = {
+			isa = PBXGroup;
+			children = (
+				434DF47622059ED000AB5C43 /* BinaryTree.h */,
+				434DF47722059ED000AB5C43 /* BinaryTree.m */,
+				434DF47A22059F1800AB5C43 /* BinaryTreeNode.h */,
+				434DF47B22059F1800AB5C43 /* BinaryTreeNode.m */,
+			);
+			path = ObjC;
+			sourceTree = "<group>";
+		};
+		43E0EB44244772BA001C2523 /* Swift */ = {
+			isa = PBXGroup;
+			children = (
+				434DF48C2206E3BC00AB5C43 /* BinaryTree.swift */,
+			);
+			path = Swift;
+			sourceTree = "<group>";
+		};
+		43E0EB45244772F9001C2523 /* String */ = {
+			isa = PBXGroup;
+			children = (
+				4386F082220ADB4800866B3C /* Strings.swift */,
+				43E0EB482447745B001C2523 /* RemoveMinimumInvalidParenthesis.swift */,
+			);
+			path = String;
+			sourceTree = "<group>";
+		};
+		43E0EB46244773A9001C2523 /* SinglyLinkedList */ = {
+			isa = PBXGroup;
+			children = (
+				43253364242BF6C7006DD680 /* LinkedListProblems.swift */,
+			);
+			path = SinglyLinkedList;
+			sourceTree = "<group>";
+		};
+		43E0EB47244773B4001C2523 /* DoublyLinkedList */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DoublyLinkedList;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -291,11 +388,11 @@
 				TargetAttributes = {
 					4329C2EF21FB13EA0025A3DF = {
 						CreatedOnToolsVersion = 10.1;
-						LastSwiftMigration = 1010;
+						LastSwiftMigration = 1130;
 					};
 					4329C2F821FB13EA0025A3DF = {
 						CreatedOnToolsVersion = 10.1;
-						LastSwiftMigration = 1010;
+						LastSwiftMigration = 1130;
 					};
 				};
 			};
@@ -344,14 +441,17 @@
 				438560592414294100D22473 /* LinkedList.swift in Sources */,
 				438560572414292B00D22473 /* ListNode.swift in Sources */,
 				434DF47922059ED000AB5C43 /* BinaryTree.m in Sources */,
+				4323755A2435E9750085B111 /* Bitswise.swift in Sources */,
 				434DF4822205CE2900AB5C43 /* ArrayQueue.m in Sources */,
 				438560552413BDAC00D22473 /* Stack.swift in Sources */,
 				434DF4862205D33E00AB5C43 /* ListQueue.m in Sources */,
-				432532AA241D664D006DD680 /* LRUCache.swift in Sources */,
+				43E0EB3A2443A43A001C2523 /* Dictionary + Extensions.swift in Sources */,
 				4385605F24165D0D00D22473 /* Array.swift in Sources */,
 				434DF47D22059F1800AB5C43 /* BinaryTreeNode.m in Sources */,
 				43253365242BF6C7006DD680 /* LinkedListProblems.swift in Sources */,
+				43E0EB492447745B001C2523 /* RemoveMinimumInvalidParenthesis.swift in Sources */,
 				438D6245220EFBC800AC6DBD /* Strings.m in Sources */,
+				43E0EB382443A269001C2523 /* Strings + Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,10 +463,10 @@
 				432532A7241CB535006DD680 /* ArrayAlgorithmsTests.swift in Sources */,
 				43253363242BDD22006DD680 /* SinglyLinkedListTests.swift in Sources */,
 				434DF48B220623B400AB5C43 /* BinaryTreeTests.m in Sources */,
-				438D6247220EFFDD00AC6DBD /* StringAlgorithmTests.m in Sources */,
+				432375582435E8F30085B111 /* MathsAlgorithmTest.swift in Sources */,
+				43E0EB4224476EC4001C2523 /* QueueTests.m in Sources */,
 				434DF494220778D600AB5C43 /* BinaryTreeTestsSwift.swift in Sources */,
 				4329C2FF21FB13EA0025A3DF /* DataStructuresTests.m in Sources */,
-				434DF4892205D91300AB5C43 /* QueueTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -526,7 +626,7 @@
 				SWIFT_COMPILATION_MODE = singlefile;
 				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -557,7 +657,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_COMPILATION_MODE = singlefile;
 				SWIFT_OBJC_BRIDGING_HEADER = "";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -580,7 +680,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "DataStructuresTests/DataStructuresTests-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -602,7 +702,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = mithlesh.DataStructuresTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "DataStructuresTests/DataStructuresTests-Bridging-Header.h";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

@@ -126,35 +126,57 @@ public class ArrayAlgorithm {
     }
 }
 
-public extension String {
-    func index(at offset: Int) -> String.Index {
-        return index(startIndex, offsetBy: offset)
+public extension Array where Element == Int {
+    func subarrayWithMaximumSum(length: Int) -> Array? {
+        guard self.count >= length else { return nil }
+
+        var currentSum = 0
+        var currentIndex = 0
+
+        while currentIndex < length {
+            currentSum += self[currentIndex]
+            currentIndex += 1
+        }
+
+        var maximumSum = currentSum
+        var range = NSRange(location: 0, length: length)
+
+        for (index, value) in self.enumerated() {
+            let windowEndIndex = index + length
+            guard windowEndIndex < self.count else { break }
+            currentSum -= value
+            currentSum += self[windowEndIndex]
+
+            if currentSum > maximumSum {
+                maximumSum = currentSum
+                range.location = index + 1
+            }
+        }
+        //var currentSum
+        return Array(self[range.lowerBound..<range.upperBound])
     }
-    subscript(x: Int) -> Character {
-        self[index(at: x)]
+
+    func minimumSubarrayWithTargetSumGreaterThanOrEqualTo(_ targetSum: Int) -> Array {
+
+        var currentSum = 0
+        var windowStart = 0
+        var range = NSRange(location: 0, length: Int.max)
+        for (index, value) in self.enumerated() {
+            currentSum += value
+
+            while(currentSum >= targetSum) {
+                let currentWindowLength = index - windowStart + 1
+                if range.length > currentWindowLength {
+                    range.location = windowStart
+                    range.length = currentWindowLength
+                }
+                currentSum -= self[windowStart]
+                windowStart += 1
+            }
+        }
+
+        guard range.length > 0, range.length <= self.count else { return [] }
+        return Array(self[range.lowerBound..<range.upperBound])
     }
-
-    subscript(x: NSRange) -> Substring {
-        self[x.lowerBound..<x.upperBound]
-    }
-
-    subscript(value: CountableClosedRange<Int>) -> Substring {
-      self[index(at: value.lowerBound)...index(at: value.upperBound)]
-    }
-
-    subscript(value: CountableRange<Int>) -> Substring {
-      self[index(at: value.lowerBound)..<index(at: value.upperBound)]
-    }
-
-//    subscript(value: PartialRangeUpTo<Int>) -> Substring {
-//      self[..<index(at: value.upperBound)]
-//    }
-
-//    subscript(value: PartialRangeThrough<Int>) -> Substring {
-//      self[...index(at: value.upperBound)]
-//    }
-
-//    subscript(value: PartialRangeFrom<Int>) -> Substring {
-//      self[index(at: value.lowerBound)...]
-//    }
 }
+

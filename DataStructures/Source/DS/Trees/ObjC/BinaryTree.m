@@ -12,7 +12,7 @@
 #import "BinaryTreeNode.h"
 
 
-int* preorderTraversal(struct TreeNode* root, int* returnSize) {
+int* _Nullable  preorderTraversal(struct TreeNode* root, int* returnSize) {
     if (root == NULL) {
         return NULL;
     }

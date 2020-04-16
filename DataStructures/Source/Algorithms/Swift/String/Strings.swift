@@ -47,3 +47,4 @@ public class StringAlgorithm {
         return result.uppercased()
     }
 }
+

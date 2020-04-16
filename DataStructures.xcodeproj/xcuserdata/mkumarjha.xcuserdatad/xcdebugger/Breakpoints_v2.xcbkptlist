@@ -7,17 +7,15 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "E732C43E-C405-48B5-A473-A271F6E9C233"
+            uuid = "9EEBC2BB-7A6C-49F3-8381-699D3B381B04"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "DataStructuresTests/ArrayAlgorithmsTests.swift"
+            filePath = "DataStructures/Source/Algorithms/Strings.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "50"
-            endingLineNumber = "50"
-            landmarkName = "testThreeSum()"
-            landmarkType = "7">
+            startingLineNumber = "156"
+            endingLineNumber = "156">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
